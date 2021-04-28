@@ -35,22 +35,7 @@ async function getEmployeeType() {
                 "Engineer",
                 "Intern"
             ]},
-            {type: "list",
-            message: "Which e?",
-            name: "empType",
-            choices: [
-                "Manager",
-                "Engineer",
-                "Intern"
-            ]},
-            {type: "list",
-            message: "Which employee type do you want to enter?",
-            name: "empType",
-            choices: [
-                "Manager",
-                "Engineer",
-                "Intern"
-            ]},
+            
     ]).then(function (data) {
         return data.empType;
     })
